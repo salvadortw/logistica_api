@@ -100,6 +100,6 @@ app.post('/autorizar-acceso', autenticar, (req, res) => {
 });
 
 // Iniciar servidor
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log(`API simulada ejecutándose en http://localhost:${PORT}`);
 });
