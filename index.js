@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
@@ -101,5 +101,5 @@ app.post('/autorizar-acceso', autenticar, (req, res) => {
 
 // Iniciar servidor
 app.listen(port, () => {
-  console.log(`API simulada ejecutándose en http://localhost:${port}`);
+  console.log(`API simulada ejecutándose en http://localhost:${PORT}`);
 });
