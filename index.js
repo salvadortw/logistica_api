@@ -36,7 +36,7 @@ function autorizar(...roles) {
 
 // Ruta principal
 app.get('/', (req, res) => {
-  res.send('✅ API de logística funcionando. Usa Postman, Bruno o lo que quieras para probar los endpoints.');
+  res.send('✅ API de logística funcionando. Usa Postman, Bruno o lo que quieras para probar los endpoints. LEER EL README!');
 });
 
 // Autenticación de Usuario
